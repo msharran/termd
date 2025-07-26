@@ -4,3 +4,24 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+# CLI parsing with derive macros (makes CLI definition easy)
+clap = { version = "4.5", features = ["derive"] }
+
+# Async runtime for non-blocking I/O operations
+tokio = { version = "1.0", features = ["full"] }
+
+# Error handling - anyhow for application errors, thiserror for library errors
+anyhow = "1.0"
+thiserror = "1.0"
+
+# Configuration serialization/deserialization
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.8"
+
+# File system utilities
+dirs = "5.0"
+
+# Our original dependencies for file finding, fuzzy selection, and text search
+skim = "0.10"
+ignore = "0.4"
+grep = "0.3"

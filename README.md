@@ -26,7 +26,7 @@ I was using Kitty + Neovim + Tmux. But, doing so I have lost kitty's amazing fea
 at work. I was using @primeagen's *tmux-sessionizer* script for creating, fuzzy finding and switching between 
 my git projects laid out as tmux sessions.
 
-To get out of tmux (to exploit kitty's full feature set), I wrote a script called `kitty-sessionizer` using 
+To get out of tmux (to exploit kitty's full feature set), I wrote a script called [`kitty-sessionizer`](./examples/kitty-sessioniser.sh) using 
 kitty's CLI and `aerospace` CLI (my macOS window manager - like i3wm for linux). This worked, but I want it to
 work for any feature rich terminal emulator (like Ghostty or anything new) and any window manager. 
 
