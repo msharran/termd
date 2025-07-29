@@ -1,6 +1,6 @@
-# tman
+# termd
 
-tman is a program that manages your terminal windows as sessions. 
+termd is a program that manages your terminal windows as sessions. 
 You can register a list of directories (like a git repository) and 
 open a session for each one of them, switch between them by fuzzy finding them.
 
@@ -41,9 +41,9 @@ work for any feature rich terminal emulator (like Ghostty or anything new) and a
 projects
 
 ```bash
-$ tman change-session --create --interactive
+$ termd change-session --create --interactive
 ```
 
 - config file: with project directory patterns, absolute path etc.,
-- start tman (in shell profile) if not started already. Determine this using
+- start termd (in shell profile) if not started already. Determine this using
 deterministic unix domain sockets (light weight daemon like tmux)
